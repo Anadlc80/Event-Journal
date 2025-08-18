@@ -6,11 +6,14 @@ from pydantic import BaseModel
 from typing import List
 from datetime import datetime
 
-class Nino(BaseModel):
-    name:str 
-    emotions: List[str] =[]
-
-
 class Emociones(BaseModel):
     emotion: str
-    timestamp: str= datetime.now().strftime("%Y-%M-%D  %H:%m")
+    intensidad: int
+    timestamp: str= datetime.now().strftime("%Y-%m-%d  %H:%m")
+
+
+class Nino(BaseModel):
+    name:str 
+    edad:int
+    avatar:str
+    emotions: List[EmocionesS] =[]

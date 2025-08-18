@@ -1,4 +1,5 @@
 # I will use this code to check the Models programm
+# is a basic test because at the first moment I didn't think about how many attribute I want to use
 
 from apps.api.core.models import Nino, Emociones
 
