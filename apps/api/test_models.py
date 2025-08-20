@@ -12,5 +12,5 @@ def main():
     print(f" User history: {user_diary} | Today event: {user_data}")
 
 
-if __name__== "__main__":
-    main()
+if __name__ == "__main__":
+    main ()

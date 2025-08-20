@@ -1,0 +1,12 @@
+{
+    "name": "Prueba11",
+    "age": null,
+    "sector": null,
+    "list_events": [
+        {
+            "Event": "Meeting 1",
+            "Calification": 5,
+            "timestamp": "2025-08-20  20:08"
+        }
+    ]
+}
